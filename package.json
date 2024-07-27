@@ -1,5 +1,5 @@
 {
-  "name": "greatfrondend-profile-card",
+  "name": "hex-glasses-rwd-website",
   "private": true,
   "type": "module",
   "scripts": {
@@ -20,5 +20,5 @@
     "gh-pages": "^6.1.1",
     "sass": "^1.77.6"
   },
-  "homepage": "https://if540.github.io/greatfrondend-profile-card"
+  "homepage": "https://if540.github.io/hex-glasses-rwd-website"
 }
