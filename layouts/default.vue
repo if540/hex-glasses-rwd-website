@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  titleTemplate: 'Greatfrontend - %s',
+  titleTemplate: 'Glasses Rwd Website - %s',
 })
 </script>
 

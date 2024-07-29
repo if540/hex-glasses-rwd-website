@@ -2,7 +2,16 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        notosanstc: ['Noto Sans TC', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+      },
+      colors: {
+        'glass-pink': '#FBF2F2',
+        'glass-red': '#AA0601'
+      }
+    },
   },
   plugins: [],
 }
