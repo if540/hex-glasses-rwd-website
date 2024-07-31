@@ -8,11 +8,12 @@ useSeoMeta({
 <div>
   <Header />
   <main class="container py-10 sm:py-20 lg:px-0">
-    <h1 class="text-2xl font-bold mt-4 border-l-8 border-solid border-[#9F1213] pl-3 sm:text-5xl">門市據點</h1>
+    <h1 class="text-2xl font-bold border-l-8 border-solid border-[#9F1213] pl-3 md:mt-4 sm:text-5xl">門市據點</h1>
     <div class="flex items-center gap-2 sm:gap-4 mt-6 sm:mt-8">
       <span class="sm:text-2xl">選擇地區</span>
       <select name="address" id="address" class="border border-solid border-[#CED4DA] max-w-[304px] flex-grow py-[6px] px-3">
-        <option value="台北市" class="text-lg">台北市</option>
+        <option value="" class="text-lg">-- 請選擇地區 --</option>
+        <option value="台北市" class="text-lg" selected>台北市</option>
       </select>
     </div>
     <!-- store list -->
@@ -30,7 +31,7 @@ useSeoMeta({
               </ul>
             </address>
           </div>
-          <a href="#" class="text-[19px] py-4 bg-black block text-white text-center" aria-label="查看門市詳細資訊">詳細資訊</a>
+          <a :href="`/store/台北中山旗艦店?city=1`" class="text-[19px] py-4 bg-black block text-white text-center" aria-label="查看門市詳細資訊">詳細資訊</a>
         </div>
       </div>
     </div>
