@@ -3,6 +3,18 @@ export default {
   content: [],
   theme: {
     extend: {
+      screens: {
+        // 'sm': '640px',
+        // => @media (min-width: 640px) { ... }
+        'md': '769px',
+        // => @media (min-width: 768px) { ... }
+        // 'lg': '1024px',
+        // // => @media (min-width: 1024px) { ... }
+        // 'xl': '1280px',
+        // // => @media (min-width: 1280px) { ... }
+        // '2xl': '1536px',
+        // => @media (min-width: 1536px) { ... }
+      },
       lineHeight: {
         DEFAULT: '1.5'
       },
@@ -37,11 +49,21 @@ export default {
         center: true,
         padding: {
           DEFAULT: '14px',
-          md: '36px',
+          sm: '36px',
         },
       }
     },
   },
-  plugins: [],
+  variants: {
+    extend: {
+      backgroundColor: ['active', 'not'],
+    },
+  },
+  plugins: [
+    function ({ addVariant }) {
+      addVariant('active', '&.active');
+      addVariant('not-active', '&:not(.active)');
+    },
+  ],
 }
 

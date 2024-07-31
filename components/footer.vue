@@ -1,6 +1,6 @@
 <template>
   <footer class="text-white bg-glass-red">
-    <div class="container px-[14px] py-6 sm:py-12">
+    <div class="container py-6 sm:py-12 lg:px-0">
       <div class="flex items-start justify-between">
         <div>
           <nav>
