@@ -3,7 +3,7 @@ const menuList = [
   {title: '系列鏡框', path: '/series/optical'},
   {title: '門市據點', path: '/store'},
   {title: '部落格', path: '#'},
-  {title: '常見問題', path: '#'},
+  {title: '常見問題', path: '/qa'},
 ]
 </script>
 
