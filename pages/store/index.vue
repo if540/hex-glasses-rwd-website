@@ -60,12 +60,13 @@ useSeoMeta({
                 </ul>
               </address>
             </div>
-            <a
-              href="/store/台北中山旗艦店?city=1"
+            <NuxtLink
+              to="/store/台北中山旗艦店?city=1"
               class="text-[19px] py-4 bg-black block text-white text-center hover:opacity-75 transition-opacity duration-300"
               aria-label="查看門市詳細資訊"
-              >詳細資訊</a
             >
+              詳細資訊
+            </NuxtLink>
           </div>
         </div>
       </div>
