@@ -6,38 +6,38 @@
           <nav>
             <ul class="gap-12 py-[6px] hidden sm:flex">
               <li>
-                <a
-                  href="/"
+                <NuxtLink
+                  to="/"
                   class="transition-opacity duration-300 hover:opacity-50"
-                  >首頁</a
+                  >首頁</NuxtLink
                 >
               </li>
               <li>
-                <a
-                  href="/series"
+                <NuxtLink
+                  to="/series"
                   class="transition-opacity duration-300 hover:opacity-50"
-                  >系列鏡框</a
+                  >系列鏡框</NuxtLink
                 >
               </li>
               <li>
-                <a
-                  href="/store"
+                <NuxtLink
+                  to="/store"
                   class="transition-opacity duration-300 hover:opacity-50"
-                  >門市據點</a
+                  >門市據點</NuxtLink
                 >
               </li>
               <li>
-                <a
-                  href="/blog"
+                <NuxtLink
+                  to="/blog"
                   class="transition-opacity duration-300 hover:opacity-50"
-                  >部落格</a
+                  >部落格</NuxtLink
                 >
               </li>
               <li>
-                <a
-                  href="/qa"
+                <NuxtLink
+                  to="/qa"
                   class="transition-opacity duration-300 hover:opacity-50"
-                  >常見問題</a
+                  >常見問題</NuxtLink
                 >
               </li>
             </ul>

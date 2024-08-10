@@ -50,7 +50,9 @@ useHead({
       <nav aria-label="breadcrumb">
         <ol class="flex breadcrumb">
           <li class="last:text-glass-red"><a href="/">首頁</a></li>
-          <li class="last:text-glass-red"><a href="/blog">部落格</a></li>
+          <li class="last:text-glass-red">
+            <a :href="`${$config.app.baseURL}blog`">部落格</a>
+          </li>
           <li class="last:text-glass-red">特別企劃</li>
           <li class="last:text-glass-red">情人特別企劃</li>
         </ol>
