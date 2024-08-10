@@ -2,16 +2,6 @@
 useHead({
   title: "太陽眼鏡",
 });
-const appConfig = useAppConfig();
-console.log("appConfig", appConfig);
-const listImg = [
-  "/images/product-1.png",
-  "/images/product-2.png",
-  "/images/product-3.png",
-  "/images/product-4.png",
-  "/images/product-5.png",
-  "/images/product-6.png",
-];
 </script>
 
 <template>
@@ -53,7 +43,10 @@ const listImg = [
       <div class="mt-6 sm:mt-8">
         <div class="flex flex-wrap -mx-3 gap-y-6 sm:gap-y-10 md:gap-y-20">
           <div class="px-3 sm:w-1/2 md:w-1/3" v-for="i in 6">
-            <img :src="listImg[i - 1]" alt="產品名稱" />
+            <img
+              :src="`${$config.app.baseURL}images/product-${i}.png`"
+              alt="產品名稱"
+            />
             <div class="flex justify-between">
               <h4 class="text-2xl font-roboto">BJ41600S</h4>
               <p class="text-2xl font-medium font-roboto text-glass-red">

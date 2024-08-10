@@ -32,7 +32,7 @@ useSeoMeta({
         <div class="flex flex-wrap -mx-3 gap-y-6 md:gap-y-12">
           <div class="px-3 sm:flex sm:gap-4 md:block md:gap-0 md:w-5/12">
             <img
-              :src="`/images/store-1.png`"
+              src="/images/store-1.png"
               alt="台北中山旗艦店"
               class="object-cover sm:w-1/2 md:w-auto"
             />
