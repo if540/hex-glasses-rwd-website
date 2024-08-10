@@ -23,6 +23,14 @@ textarea, input
 // -------------------------------------
 .container
   max-width: 1296px
+  
+.breadcrumb
+  li + li
+    &::before
+      content: '/  '
+      padding-left: 4px
+      line-height: 1.5
+      color: black
 
 // -------------------------------------
 //   Helper

@@ -131,13 +131,3 @@ useHead({
     <Footer />
   </div>
 </template>
-
-<style lang="sass" scoped>
-.breadcrumb
-  li + li
-    &::before
-      content: '/  '
-      padding-left: 4px
-      line-height: 1.5
-      color: black
-</style>
