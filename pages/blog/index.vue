@@ -45,8 +45,9 @@ useHead({
               class="relative text-[#555555] mt-1 line-clamp-6 hidden sm:block lg:text-xl lg:mt-4 lg:line-clamp-none lg:flex lg:flex-col lg:h-full">
               炎熱的夏季裡，衣著選擇經常希望以簡潔的風格為主，但有時單純只穿搭 T
               恤或短袖開襟襯衫，又覺得整體造型度有點不足嗎？那麼不妨可以透過「配件」，為穿搭點綴出與眾不同的視覺層次，而本季有哪些必備的配件系列呢？一起從以下推薦的
-              3 款單品，讓你瞬間帥氣爆棚散發型男品味⋯⋯<a :href="`${$config.app.baseURL}blog/街頭潮人訪問`"
-                class="transition-opacity duration-300 hackMoreLink font-roboto hover:opacity-75 lg:uppercase lg:text-glass-red-dark lg:font-black lg:block lg:text-right lg:mt-auto lg:text-4xl">more</a>
+              3 款單品，讓你瞬間帥氣爆棚散發型男品味⋯⋯<NuxtLink to="/blog/街頭潮人訪問"
+                class="transition-opacity duration-300 hackMoreLink font-roboto hover:opacity-75 lg:uppercase lg:text-glass-red-dark lg:font-black lg:block lg:text-right lg:mt-auto lg:text-4xl">
+                more</NuxtLink>
             </p>
           </div>
         </li>
@@ -63,9 +64,10 @@ useHead({
             <p
               class="relative text-[#555555] mt-1 line-clamp-6 hidden sm:block lg:text-xl lg:mt-4 lg:line-clamp-none lg:flex lg:flex-col lg:h-full">
               2020
-              年春季的光學眼鏡跳脫前幾季流行的復古框型，比起圓框與小方框等文青風格，偏向個性款式的眉框眼鏡成為這一季的耀眼之星。除了經典款式如黑色眉框落在長方形鏡面上，眉宇之間露出專業莊重的特殊氣質，包覆在圓形鏡框上的貓眼型眉框則是強調出特殊設計感，俐落時髦的造型搭配一件簡單的白襯衫就相當有型，是喜愛時尚質感人士絕不能錯過的必備款式⋯⋯<a
-                :href="`${$config.app.baseURL}blog/春季新品上市`"
-                class="transition-opacity duration-300 hackMoreLink font-roboto hover:opacity-75 lg:uppercase lg:text-glass-red-dark lg:font-black lg:block lg:text-right lg:mt-auto lg:text-4xl">more</a>
+              年春季的光學眼鏡跳脫前幾季流行的復古框型，比起圓框與小方框等文青風格，偏向個性款式的眉框眼鏡成為這一季的耀眼之星。除了經典款式如黑色眉框落在長方形鏡面上，眉宇之間露出專業莊重的特殊氣質，包覆在圓形鏡框上的貓眼型眉框則是強調出特殊設計感，俐落時髦的造型搭配一件簡單的白襯衫就相當有型，是喜愛時尚質感人士絕不能錯過的必備款式⋯⋯
+              <NuxtLink to="/blog/春季新品上市"
+                class="transition-opacity duration-300 hackMoreLink font-roboto hover:opacity-75 lg:uppercase lg:text-glass-red-dark lg:font-black lg:block lg:text-right lg:mt-auto lg:text-4xl">
+                more</NuxtLink>
             </p>
           </div>
         </li>
@@ -82,9 +84,10 @@ useHead({
             <p
               class="relative text-[#555555] mt-1 line-clamp-6 hidden sm:block lg:text-xl lg:mt-4 lg:line-clamp-none lg:flex lg:flex-col lg:h-full">
               2020
-              年春季的光學眼鏡跳脫前幾季流行的復古框型，比起圓框與小方框等文青風格，偏向個性款式的眉框眼鏡成為這一季的耀眼之星。除了經典款式如黑色眉框落在長方形鏡面上，眉宇之間露出專業莊重的特殊氣質，包覆在圓形鏡框上的貓眼型眉框則是強調出特殊設計感，俐落時髦的造型搭配一件簡單的白襯衫就相當有型，是喜愛時尚質感人士絕不能錯過的必備款式⋯⋯<a
-                :href="`${$config.app.baseURL}blog/設計師獨享鏡框優惠`"
-                class="transition-opacity duration-300 hackMoreLink font-roboto hover:opacity-75 lg:uppercase lg:text-glass-red-dark lg:font-black lg:block lg:text-right lg:mt-auto lg:text-4xl">more</a>
+              年春季的光學眼鏡跳脫前幾季流行的復古框型，比起圓框與小方框等文青風格，偏向個性款式的眉框眼鏡成為這一季的耀眼之星。除了經典款式如黑色眉框落在長方形鏡面上，眉宇之間露出專業莊重的特殊氣質，包覆在圓形鏡框上的貓眼型眉框則是強調出特殊設計感，俐落時髦的造型搭配一件簡單的白襯衫就相當有型，是喜愛時尚質感人士絕不能錯過的必備款式⋯⋯
+              <NuxtLink to="/blog/設計師獨享鏡框優惠"
+                class="transition-opacity duration-300 hackMoreLink font-roboto hover:opacity-75 lg:uppercase lg:text-glass-red-dark lg:font-black lg:block lg:text-right lg:mt-auto lg:text-4xl">
+                more</NuxtLink>
             </p>
           </div>
         </li>
@@ -101,9 +104,10 @@ useHead({
             <p
               class="relative text-[#555555] mt-1 line-clamp-6 hidden sm:block lg:text-xl lg:mt-4 lg:line-clamp-none lg:flex lg:flex-col lg:h-full">
               2020
-              年春季的光學眼鏡跳脫前幾季流行的復古框型，比起圓框與小方框等文青風格，偏向個性款式的眉框眼鏡成為這一季的耀眼之星。除了經典款式如黑色眉框落在長方形鏡面上，眉宇之間露出專業莊重的特殊氣質，包覆在圓形鏡框上的貓眼型眉框則是強調出特殊設計感，俐落時髦的造型搭配一件簡單的白襯衫就相當有型，是喜愛時尚質感人士絕不能錯過的必備款式⋯⋯<a
-                :href="`${$config.app.baseURL}blog/抵抗夏日大作戰`"
-                class="transition-opacity duration-300 hackMoreLink font-roboto hover:opacity-75 lg:uppercase lg:text-glass-red-dark lg:font-black lg:block lg:text-right lg:mt-auto lg:text-4xl">more</a>
+              年春季的光學眼鏡跳脫前幾季流行的復古框型，比起圓框與小方框等文青風格，偏向個性款式的眉框眼鏡成為這一季的耀眼之星。除了經典款式如黑色眉框落在長方形鏡面上，眉宇之間露出專業莊重的特殊氣質，包覆在圓形鏡框上的貓眼型眉框則是強調出特殊設計感，俐落時髦的造型搭配一件簡單的白襯衫就相當有型，是喜愛時尚質感人士絕不能錯過的必備款式⋯⋯
+              <NuxtLink to="/blog/抵抗夏日大作戰"
+                class="transition-opacity duration-300 hackMoreLink font-roboto hover:opacity-75 lg:uppercase lg:text-glass-red-dark lg:font-black lg:block lg:text-right lg:mt-auto lg:text-4xl">
+                more</NuxtLink>
             </p>
           </div>
         </li>
