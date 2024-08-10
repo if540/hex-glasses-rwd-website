@@ -1,1 +1,0 @@
-import{u as t}from"./BcJ9hdf9.js";import{g as s,c as a,L as o,o as l}from"./BXley2GJ.js";const u=s({__name:"default",setup(r){return t({titleTemplate:"Glasses Rwd Website - %s"}),(e,n)=>(l(),a("div",null,[o(e.$slots,"default")]))}});export{u as default};
