@@ -24,11 +24,12 @@ const menuList = [
             class="w-1/2 border border-white border-solid sm:border-none sm:w-auto"
             v-for="item in menuList"
           >
-            <a
-              :href="item.path"
+            <NuxtLink
+              :to="item.path"
               class="hover:opacity-50 transition-opacity duration-300 text-center text-white block py-[12px] sm:text-xl sm:py-[25px]"
-              >{{ item.title }}</a
             >
+              {{ item.title }}
+            </NuxtLink>
           </li>
         </ul>
       </nav>
