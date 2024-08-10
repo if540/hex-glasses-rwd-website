@@ -28,7 +28,10 @@ useSeoMeta({
       <div class="mt-6 sm:mt-10">
         <div class="flex flex-wrap -mx-3 gap-y-6 md:gap-y-12">
           <div class="px-3 sm:w-1/2 md:w-1/3" v-for="i in 5">
-            <img :src="`/images/store-${i}.png`" alt="門市名稱" />
+            <img
+              :src="`${$config.app.baseURL}images/store-${i}.png`"
+              alt="門市名稱"
+            />
             <div class="border border-solid divide-y">
               <p class="px-6 py-2 text-2xl">台北中山旗艦店</p>
               <address>
@@ -58,7 +61,7 @@ useSeoMeta({
               </address>
             </div>
             <a
-              :href="`/store/台北中山旗艦店?city=1`"
+              href="/store/台北中山旗艦店?city=1"
               class="text-[19px] py-4 bg-black block text-white text-center hover:opacity-75 transition-opacity duration-300"
               aria-label="查看門市詳細資訊"
               >詳細資訊</a
