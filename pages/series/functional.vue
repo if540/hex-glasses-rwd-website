@@ -16,7 +16,7 @@ useHead({
         <img src="/images/product-header-sm-2.png" alt="功能性眼鏡鏡形象照 2" class="object-cover w-full h-full" />
       </picture>
     </section>
-    <section class="container py-10 sm:py-20 lg:px-0">
+    <section class="container py-10 sm:py-20">
       <h2 class="text-center text-2xl font-roboto font-medium sm:text-[42px]">
         Celluloid Combi
       </h2>

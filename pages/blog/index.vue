@@ -7,7 +7,7 @@ useHead({
 <template>
   <div>
     <Header />
-    <main class="container py-10 sm:py-20 lg:px-0">
+    <main class="container py-10 sm:py-20">
       <h1 class="text-2xl font-bold border-l-8 border-solid border-[#9F1213] pl-3 sm:text-5xl md:mt-4">
         部落格
       </h1>

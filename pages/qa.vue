@@ -7,10 +7,8 @@ useHead({
 <template>
   <div>
     <Header />
-    <main class="container py-10 sm:py-20 lg:px-0">
-      <h1
-        class="text-2xl font-bold border-l-8 border-solid border-[#9F1213] pl-3 md:mt-4 sm:text-5xl"
-      >
+    <main class="container py-10 sm:py-20">
+      <h1 class="text-2xl font-bold border-l-8 border-solid border-[#9F1213] pl-3 md:mt-4 sm:text-5xl">
         常見問題
       </h1>
       <h2 class="mt-6 text-2xl font-bold">我想詢問配鏡問題</h2>
