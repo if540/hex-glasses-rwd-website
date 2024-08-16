@@ -9,7 +9,7 @@ useHead({
   <div>
     <Header />
     <nav class="bg-glass-red-dark">
-      <div class="container flex items-center justify-between lg:px-0">
+      <div class="container flex items-center justify-between">
         <ul class="flex grow sm:grow-0 sm:space-x-12">
           <li class="text-center grow sm:grow-0">
             <a href="#"
@@ -31,7 +31,7 @@ useHead({
         <span class="material-symbols-outlined text-[40px] text-white hidden cursor-pointer sm:block">search</span>
       </div>
     </nav>
-    <div class="container pt-4 pb-20 sm:pt-6 lg:px-0">
+    <div class="container pt-4 pb-20 sm:pt-6">
       <nav aria-label="breadcrumb">
         <ol class="flex breadcrumb">
           <li class="last:text-glass-red"><a href="/">首頁</a></li>

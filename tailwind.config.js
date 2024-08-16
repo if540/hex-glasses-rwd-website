@@ -50,6 +50,7 @@ export default {
         padding: {
           DEFAULT: '14px',
           sm: '36px',
+          lg: '12px'
         },
       }
     },
